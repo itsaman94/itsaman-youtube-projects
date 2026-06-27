@@ -1,0 +1,10 @@
+# Core dependencies for the Prompt Engineering course
+# Install with:  pip install -r requirements.txt
+#
+# Note: these are only needed for REAL answers. With no key, every script
+# runs in Demo Mode using just the Python standard library.
+
+openai>=1.0.0          # Talk to OpenAI models (GPT-4o, GPT-4o-mini, etc.)
+python-dotenv>=1.0.0   # Load your API key from a .env file
+
+
